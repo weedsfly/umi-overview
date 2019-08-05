@@ -25,5 +25,6 @@ export default {
   }],
   cssLoaderOptions: {
     localIdentName: '[local]'
-  }
+  },
+  theme: 'src/assets/css/theme.js'
 }
