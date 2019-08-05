@@ -1,6 +1,7 @@
 // 初始化一个homeStore
 const initHomeStore = {
-  isShowDesc: false
+  isShowDesc: false,
+  listData: []
 }
 
 const homeStore = (state=initHomeStore, action) => {
@@ -9,6 +10,11 @@ const homeStore = (state=initHomeStore, action) => {
       return {
         ...state,
         isShowDesc: action.value
+      }
+    case 'home-get-list':
+      return {
+        ...state,
+        listData: action.value
       }
     default: 
       return state

@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "antd": "^3.20.7"
+    "antd": "^3.20.7",
+    "mockjs": "^1.0.1-beta3",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
